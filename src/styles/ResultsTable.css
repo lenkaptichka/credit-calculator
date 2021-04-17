@@ -1,0 +1,40 @@
+.table {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 900px;
+	color: #2C2738;
+	margin: 15px auto;
+	background-color: #C2CFCC;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.table__row {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #2C2738;
+	text-align: center;
+	align-items: center;
+	font-size: 15px;
+}
+
+.table__row_header {
+	background-color: #85A698;
+	font-size: 16px;
+}
+
+.table__column-item {
+	text-align: center;	
+	margin: 0;
+	padding: 6px;
+}
+
+.table__column-item_number {
+	flex-basis: 12%
+}
+
+.table__column-item_value {
+	flex-basis: 22%
+}
